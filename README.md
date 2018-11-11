@@ -10,7 +10,7 @@
 ## 2. 搭建模型
 ### 2.1 Set the CNN model
 ### my CNN architechture is:
-### [[Conv2D->relu]2 -> MaxPool2D -> Dropout]2 -> Flatten -> Dense -> Dropout -> Out
+>> ### [[Conv2D->relu]2 -> MaxPool2D -> Dropout]2 -> Flatten -> Dense -> Dropout -> Out
 ### 2.2 Set the optimizer and annealer(设置优化器等，使用 LR 衰减学习率)
 ## 3. Data augmentation 数据扩增 （使用数据扩增方法避免过拟合，常见的数据扩增方法有：灰度,水平翻转、垂直翻转,随机裁剪,反转,旋转,等等）
 ## 4. Evaluate the model
